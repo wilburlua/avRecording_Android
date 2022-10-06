@@ -29,13 +29,10 @@ import java.io.*
 
 private const val LOG_TAG = "AudioRecordTest"
 class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
-    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
     private var recorder: MediaRecorder? = null
     private var player: MediaPlayer? = null
     private var mediaRecorderSetting: MediaRecorderSetting? = null
-    private var permissionManager: PermissionManager? = null
-    private var permissionToRecord: Boolean = false
     private var permissionList: Array<String> = arrayOf(
         Manifest.permission.RECORD_AUDIO,
         Manifest.permission.WRITE_EXTERNAL_STORAGE
