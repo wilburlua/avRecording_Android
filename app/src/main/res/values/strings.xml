@@ -17,5 +17,54 @@
     <!-- String used for Audio Configuration -->
     <string name="txtAudioConfiguration">Audio Configuration</string>
 
+    <!--Spinner values for audio source -->
+    <string name="audioSourceUnprocessed">Unprocessed</string>
+    <string name="audioSourceMic">Microphone</string>
+    <string name="audioSourceVP">Voice Performance</string>
+    <string name="audioSourceVC">Voice Communication</string>
+    <string-array name="audioSource">
+        <item>Unprocessed</item>
+        <item>Microphone</item>
+        <item>Voice Performance</item>
+        <item>Voice Communication</item>
+    </string-array>
+
+    <!--Spinner values for encoding format -->
+    <string name="audioEncoderAAC">AAC</string>
+    <string name="audioEncoderAMR_NB">AMR_NB</string>
+    <string-array name="audioEncoder">
+        <item>AAC</item>
+        <item>AMR_NB</item>
+    </string-array>
+
+    <string name="audioOutputFormat3GPP">3GPP</string>
+    <string name="audioOutputFormatMPEG4A">MPEG_4</string>
+
+    <string-array name="audioOutputFormat">
+        <item>3GPP (.3gpp)</item>
+        <item>MPEG_4 (.m4a)</item>
+    </string-array>
+
+    <!--Spinner values for sampling rate -->
+    <string-array name="audioSamplingRate">
+        <item>Low (8 kHz)</item>
+        <item>Med (22.05 kHz)</item>
+        <item> High (44.1 kHz)</item>
+    </string-array>
+
+    <string name="audioSamplingRateLow">Low (8 kHz)</string>
+    <string name="audioSamplingRateMed">Med (22.05 kHz)</string>
+    <string name="audioSamplingRateHigh">High (44.1 kHz)</string>
+
+    <!--Spinner values for audio encoding bit rate -->
+    <string-array name="audioEncodingBitRate">
+        <item>Default</item>
+        <item>16 bits</item>
+        <item>24 bits</item>
+    </string-array>
+
+    <string name="audioEncodingBitRateDefault">Default</string>
+    <string name="audioEncodingBitRate16">16 bits</string>
+    <string name="audioEncodingBitRate24">24 bits</string>
 
 </resources>
